@@ -5,8 +5,7 @@ import json
 import requests
 from datetime import datetime, timedelta
 
-
-    st.header("📦 Карго тооцоолуур")
+st.header("📦 Карго тооцоолуур")
 
 # 1. Өндөр (Тоо + Нэгж)
 col_h1, col_h2 = st.columns([3, 1]) # 3:1 харьцаатай (Тоо нь том, нэгж нь жижиг)
